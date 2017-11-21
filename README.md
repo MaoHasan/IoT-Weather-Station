@@ -24,7 +24,6 @@ uci commit system
 - Reboot your arduino
 ```
 > reboot
-
 ```
 
 __NOTE:__ To get your city's time zone [CLICK HERE](http://famschmid.net/timezones.html) 
