@@ -12,4 +12,17 @@ Data logging with google spread sheets, implementing a weather station concept u
 - SpreadsheetID: main .ino file
 
 Note that you can get all these keys from google api credentials and Temboo google's initial, final and sheets settings.
-**More info Soon**
+
+## Set time zone of Linux OS:
+- Login to your Arduino using SSH
+- Type the following in your terminal
+```
+uci set system.@system[0].zonename='Asia/Muscat'
+uci set system.@system[0].timezone='GST-4'
+uci commit system
+```
+- Reboot your arduino
+
+__NOTE:__ To get you city's time zone [CLICK HERE](http://famschmid.net/timezones.html) 
+
+__MORE INFO SOON__
