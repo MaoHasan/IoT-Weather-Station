@@ -1,7 +1,7 @@
 # IoT-Weather-Station
 Data logging with google spread sheets, implementing a weather station concept using Temboo platform.
 
-##Remember to change the followings:
+## Remember to change the followings:
 - AccountName: TembooAccount.h
 - AppKeyName: TembooAccount.h
 - AppKey: TembooAccount.h
